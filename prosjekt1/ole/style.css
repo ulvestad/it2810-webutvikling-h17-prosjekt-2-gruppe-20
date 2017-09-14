@@ -1,0 +1,95 @@
+body {
+  background-color: #addd93;
+}
+
+/*Punkt 2. Bruker flexbox i container for at bildet skal være helt til høyre på samme linje*/
+.container {
+  display: flex;
+  font-size: 1.3em;
+  font-family: arial, sans-serif;
+  height: 50px;
+  border-style: groove;
+  background-color: white;
+  width: 99.5%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position:relative;
+  padding-bottom: 80px;
+}
+
+.section {
+  text-align: center;
+  align-content: center;
+  margin: 50px 100px 0 100px;
+  padding: 10px;
+  background: white;
+}
+
+h1 {
+  font-family: fantasy;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.text {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 720px) {
+  .section {
+    margin: 35px;
+  }
+  img {
+    margin-bottom: 10px;
+    max-width: 250px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .wrapper img {
+    margin-bottom: 25px;
+    max-width: 400px;
+  }
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:102%;
+  height:40px;
+  background: white;
+  margin-left: -9px;
+  margin-bottom: -9px;
+}
+
+.links {
+  margin: 25px 0 0 10px;
+}
+
+#tennis {
+  margin-left: 10px;
+}
+
+#bandy {
+  margin-left: 10px;
+}
+
+.sports:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#sportsPic {
+  margin: 0 10px 0 auto;
+}
+
+#footerlink {
+  margin-top: 8px;
+  text-align: center;
+}
