@@ -1,19 +1,13 @@
 * {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
 }
 
 .hidden {
   display: none;
 }
 
-body {
-  display: flex;
-}
-
 header {
-  display: flex;
+  display: block;
   flex: 1;
   min-height: 3em;
   background-color: #A19F9F;
