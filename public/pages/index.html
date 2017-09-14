@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
-    <title> Coffee </title>
-  </head>
-  <body>
-    <div id="first">
-      <div class="title">
-        <h1> Coffee </h1>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/nav.css">
+  <title> Coffee </title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="toggle">
+        <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
+        <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
       </div>
-    </div>
-    <div id="second">
-      <div class="parent">
-        <img class="child hide grow" id="poster1" alt="poster1" src="../img/posters/poster1.jpg" />
-        <img class="child hide grow" id="poster2" alt="poster2" src="../img/posters/poster2.jpg" />
-        <img class="child hide grow" id="poster3" alt="poster3" src="../img/posters/poster3.jpg" />
-        <img class="child hide grow" id="poster4" alt="poster4" src="../img/posters/poster4.jpg" />
-        <img class="child hide grow" id="poster5" alt="poster5" src="../img/posters/poster5.jpg" />
-        <img class="child hide grow" id="poster6" alt="poster6" src="../img/posters/poster6.jpg" />
-        <img class="child hide grow" id="poster7" alt="poster7" src="../img/posters/poster7.jpg" />
-        <img class="child hide grow" id="poster8" alt="poster8" src="../img/posters/poster8.jpg" />
-        <img class="child hide grow" id="poster9" alt="poster9" src="../img/posters/poster9.jpg" />
-        <img class="child hide grow" id="poster10" alt="poster10" src="../img/posters/poster10.jpg" />
-        <img class="child hide grow" id="poster11" alt="poster11" src="../img/posters/poster11.jpg" />
-        <img class="child hide grow" id="poster12" alt="poster12" src="../img/posters/poster12.jpg" />
-        <img class="child hide grow" id="poster13" alt="poster13" src="../img/posters/poster13.jpg" />
-        <img class="child hide grow" id="poster14" alt="poster14" src="../img/posters/poster14.jpg" />
-        <img class="child hide grow" id="poster15" alt="poster15" src="../img/posters/poster15.jpg" />
+      <div class="navbar-menu" id="navbar-menu">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/map">Map</a>
+        <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
       </div>
+      <div class="logo">
+        Coffee
+        <img src="../img/coffee-icon.png" /> </div>
+      <div class="navbar-right"></div>
     </div>
-    <div id="third">
-      <div class="parent">
-        <img id="quote1" class="child quote" alt="quote" src="../img/quote1.jpg" />
-        <img id="coffee" class="child image" alt="coffee" src="../img/coffee/coffee1.jpg" />
-      </div>
+  </header>
+  <div id="first">
+    <div class="title">
+      <h1> Coffee </h1>
     </div>
+  </div>
+  <div id="second">
+    <div class="parent">
+      <img class="child hide grow" id="poster1" alt="poster1" src="../img/posters/poster1.jpg" />
+      <img class="child hide grow" id="poster2" alt="poster2" src="../img/posters/poster2.jpg" />
+      <img class="child hide grow" id="poster3" alt="poster3" src="../img/posters/poster3.jpg" />
+      <img class="child hide grow" id="poster4" alt="poster4" src="../img/posters/poster4.jpg" />
+      <img class="child hide grow" id="poster5" alt="poster5" src="../img/posters/poster5.jpg" />
+      <img class="child hide grow" id="poster6" alt="poster6" src="../img/posters/poster6.jpg" />
+      <img class="child hide grow" id="poster7" alt="poster7" src="../img/posters/poster7.jpg" />
+      <img class="child hide grow" id="poster8" alt="poster8" src="../img/posters/poster8.jpg" />
+      <img class="child hide grow" id="poster9" alt="poster9" src="../img/posters/poster9.jpg" />
+      <img class="child hide grow" id="poster10" alt="poster10" src="../img/posters/poster10.jpg" />
+      <img class="child hide grow" id="poster11" alt="poster11" src="../img/posters/poster11.jpg" />
+      <img class="child hide grow" id="poster12" alt="poster12" src="../img/posters/poster12.jpg" />
+      <img class="child hide grow" id="poster13" alt="poster13" src="../img/posters/poster13.jpg" />
+      <img class="child hide grow" id="poster14" alt="poster14" src="../img/posters/poster14.jpg" />
+      <img class="child hide grow" id="poster15" alt="poster15" src="../img/posters/poster15.jpg" />
+    </div>
+  </div>
+  <div id="third">
+    <div class="parent">
+      <img id="quote1" class="child quote" alt="quote" src="../img/quote1.jpg" />
+      <img id="coffee" class="child image" alt="coffee" src="../img/coffee/coffee1.jpg" />
+    </div>
+  </div>
   <script src="../js/index.js"></script>
-  </body>
+  <script src="../js/navbar.js"></script>
+</body>
+
 </html>

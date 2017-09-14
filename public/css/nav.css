@@ -10,7 +10,7 @@ header {
   display: block;
   flex: 1;
   min-height: 3em;
-  background-color: #A19F9F;
+  background-color: rgb(251, 235, 210);
 }
 
 .logo {
