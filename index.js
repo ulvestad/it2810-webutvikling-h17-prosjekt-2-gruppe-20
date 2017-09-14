@@ -6,12 +6,16 @@ const port = 8082
 app.use(express.static(__dirname + '/pages'));
 
 // -- Routes
-app.get('/', (req, res) => { 
+app.get('/', (req, res) => {
   res.sendFile('index.html')
 })
 
-app.get('/map', (req, res) => { 
+app.get('/map', (req, res) => {
   res.sendFile('map.html')
+})
+
+app.get('/howToMakeCoffee', (req, res) => {
+  res.sendFile('howToMakeCoffee.html')
 })
 
 /* Start server */
