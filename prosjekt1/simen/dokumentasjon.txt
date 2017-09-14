@@ -1,0 +1,22 @@
+**** Prosjekt 1 ****
+
+- Denne nettsiden er utviklet med kun bruk av "plain" HTML, CSS og Javascript, uten noe rammeverk.
+
+- Temaet for prosjekt "noe du er takknemlig for". På nettsiden omhandler det fotballklubber fra Premier League som man er takknemlig for. Her kan man legge til sine "favoritter" som "cards" på nettsiden. Man har også mulighet til å fjerne dem, skulle man endre mening.
+
+- Den tar i bruk CSS  "display:flexbox" (fra 2011) eller display:flex som er det faktiske versjonen. Dette blir bruk i "clubsContainter" div'en som er en container som inneholder cardsene om lagene som er egene div'ver. Disse cardsene er også container og har propertien flex, den inneholder 2 div'er med bilde og "fargebox". 
+
+- flex-wrap:wrap CSS propertien sørger for at cardsene flyter hvis størrelsen på nettsiden eller antall cards endres.
+
+- JS er brukt for å gjøre flere elementer interaktive, blant annet "Legg til" og "Fjern" knappene som repsektivt legger til eller fjerner card. Her vil også en alert komme dersom man gjør feil.
+
+- Favicon og PL-ikonet er lagt til i <head> i html-koden
+
+- HTML koden er validet gjennom W3C markup
+
+- CSS og Javascript er i seperate filer. Begge er "linket" i index.html siden
+
+
+
+
+

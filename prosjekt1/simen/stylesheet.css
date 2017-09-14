@@ -1,0 +1,84 @@
+header{
+	color: #fff;
+	font-family: "Verdana";
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 30px;
+	line-height: 40%;
+	padding-bottom: 20px;
+	text-align:center;
+	background-color: #38003C;
+	padding-bottom: 55px;
+}
+#smallheader{
+	font-size: 11px;
+	color: #fff;
+	font-family: "Verdana";
+	font-weight: bold;
+	line-height: 40%;
+	text-align:center;
+	margin-top:-35px; 
+	margin-bottom: 45px;
+}
+body{
+	margin: 0px;
+	background-image: url("background.jpg");
+	font-family: "Verdana";
+	font-size: 12px;
+}
+#addContainer{
+	width: 60%;
+	margin: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#selecter{
+	height: 25px;
+	padding-bottom: 2px;
+}
+#addButton{
+	height: 25px;
+}
+#removeButton{
+	height: 25px;
+}
+#clubsContainer{
+	padding-top: 20px;
+	margin: auto;
+	width: 60%;
+	display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+#club{
+	display:flex;
+	margin: 10px;
+	width: 200px;
+	height: 130px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: #38003C;
+    color:#000;
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
+#txt_div{
+	background-color: #d8d8d8;
+	padding: 110px 70px 2px 0px;
+}
+#img_div{
+	margin: 5px 5px 5px 5px;
+}
+footer{
+	position: fixed;
+	font-size: 11px;
+	height: auto;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	background-color: #38003C;
+	color: #fff;
+}
