@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+	font-family: "Verdana";
+}
+h1{
+	text-align: center;
+}
+#whiteContainer{
+	width: 100%;
+	min-height: 250px;
+	height: 55vh;
+	background-color: #fff;
+}
+#brownContainer{
+	width: 100%;
+	min-height: 250px;
+	height: 55vh;
+	background-color: #BB813B;
+}
+#tweet{
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+}
+h3{
+	margin-top: 40px;
+}
+p{
+	color: #606060;
+	margin-left: 25px;
+}
+#imgTweet{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 480px;
+}
+#imgWorld{
+	max-width: 650px;
+	margin-top: 40px;
+	float:left;
+	margin-left: 50px;
+}
+#imgBeans{
+	max-width: 350px;
+	max-height: 200px;
+}
+#imgShop{
+	max-width: 350px;
+	max-height: 200px;
+
+}
+#fact1{
+	color:#fff;
+	padding-top: 85px;
+	margin-left: 800px;
+}
+#fact2{
+	color:#fff;
+	padding-top: 90px;
+	margin-left: 720px;
+}
+#span1{
+	font-size:50px;
+}
+#span2{
+	font-size:40px;
+}
+
+#imgParagraph1{
+}
+#imgParagraph2{
+}
+#paragraphs{
+	display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
