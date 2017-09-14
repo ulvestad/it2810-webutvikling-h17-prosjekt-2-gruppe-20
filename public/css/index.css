@@ -31,38 +31,6 @@ img {
   padding: 10px;
 }
 
-/* Sections */
-
-#nav {
-  position: fixed;
-  width: 30px;
-  height: 20%;
-  right: 5%;
-  top: 40%;
-}
-
-#nav ul {
-  list-style-type: none;
-}
-
-#nav li {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#nav a {
-  text-decoration: none;
-  color: maroon;
-  font-size: 60px;
-}
-
-#nav a:hover {
-  color: goldenrod;
-}
-
 /* First */
 
 #first {
@@ -82,11 +50,6 @@ img {
   color: #fff;
 }
 
-.title > h2 {
-  font-size: 40px;
-  margin: 0;
-}
-
 .title > h1 {
   font-size: 80px;
   margin: 0;
@@ -99,31 +62,7 @@ img {
   padding-bottom: 5%;
 }
 
-/* Third */
-
-#third {
-  background: white;
-  height: 100vh;
-  width: 100vw;
-}
-
-#third .quote {
-  max-width: 300px;
-}
-
-#third .image {
-  max-width: 400px;
-}
-
 /* Animations */
-
-.show {  
-  -webkit-transition: opacity 2s ease-in-out; /* Chrome, Safari */
-  -moz-transition: opacity 2s ease-in-out; /* Firefox */
-  -ms-transition: opacity 2s ease-in-out; /* IE */
-  -o-transition: opacity 2s ease-in-out; /* Opera */
-  transition: opacity 2s ease-in-out;
-}
 
 .hide { 
   opacity: 0; 
