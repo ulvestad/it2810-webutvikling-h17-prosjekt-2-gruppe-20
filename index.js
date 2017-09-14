@@ -3,15 +3,16 @@ const path = require("path");
 const app = express()
 const port = 8082
 
-app.use(express.static(__dirname + '/pages'));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'pages/public')));
 
 // -- Routes
 app.get('/', (req, res) => { 
-  res.sendFile('index.html')
+  res.redirect('/pages/index.html')
 })
 
-app.get('/map', (req, res) => { 
-  res.sendFile('map.html')
+app.get('/map', (req, res) => {
+  res.redirect('/pages/map.html')
 })
 
 /* Start server */
