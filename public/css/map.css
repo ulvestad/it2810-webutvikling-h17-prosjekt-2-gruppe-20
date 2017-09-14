@@ -1,3 +1,7 @@
+body {
+  background: khaki;
+}
+
 #map {
   width: 600px;
   height: 400px;
