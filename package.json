@@ -18,5 +18,8 @@
   "homepage": "https://github.com/IT2810/it2810-webutvikling-h17-prosjekt-2-gruppe-20#readme",
   "dependencies": {
     "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1"
   }
 }
