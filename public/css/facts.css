@@ -89,13 +89,13 @@ footer{
 }
 
 
-
 /*Second*/
 
 #second{
 	width: 100%;
 	min-height: 250px;
 	background-color: #fff;
+	margin-top: 60px;
 }
 #tweet{
 	text-align: center;
@@ -109,7 +109,6 @@ footer{
 	margin-top: 40px;
 	cursor: pointer;
 }
-
 
 
 /*Third*/
@@ -138,6 +137,17 @@ footer{
 	margin-left: 30px;
 	margin-right: 30px;
 }
+.front{
+	width: 350px;
+	height: 500px;
+	background-color: #E9B85C;
+}
+.back{
+	width: 350px;
+	height: 500px;
+	background-color: #00fff6;
+}
+
 #paragraph2{
 	background-color: #E9B85C;
 	height: 500px;
