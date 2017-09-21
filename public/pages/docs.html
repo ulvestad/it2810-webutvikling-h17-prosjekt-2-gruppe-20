@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/docs.css"/>
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title> Coffee </title>
@@ -14,7 +14,7 @@
       <div class="navbar">
         <div class="toggle">
           <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
-          <a id="coffeeToggle" href="/">Coffee <img src="../img/coffee-icon.png" alt="icon" id="headerIconToogle" ></a>
+          <label id="coffeeToggle">Coffee <img src="../img/coffee-icon.png" alt="icon" id="headerIconToogle"></label>
           <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
         </div>
         <div class="navbar-menu" id="navbar-menu">
@@ -27,29 +27,26 @@
         </div>
       </div>
     </header>
-    <div id="first">
-      <div class="title">
-        <h1> Coffee </h1>
+    <div id="documentation">
+      <div class="content">
+        <div id="docs"> </div>
       </div>
     </div>
-    <div id="second">
-      <div class="parent" id="posters"> </div>
-    </div>
-  </div>
-  <footer>
-       <img src="../img/facts/coffeemug.png" alt="coffee mug" id="coffeeMug">
-       <p id="footerP">Copyrigth by Group 20 @NTNU - IT2810.
-       <br></br>
-       Source code can be found @GitHub
-       <br>
-       Give it a star :)
-      </p>
-      <a href="https://github.com/IT2810">
-      <img src="../img/facts/footerLogos.png" alt="facebook twitter etc." id="footerImages">
-      <a/>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="../js/index.js"></script>
-  <script src="../js/navbar.js"></script>
+
+    <footer>
+      <img src="../img/facts/coffeemug.png" alt="coffee mug" id="coffeeMug">
+        <p id="footerP">Copyrigth by Group 20 @NTNU - IT2810.
+         <br></br>
+         Source code can be found @GitHub
+         <br>
+         Give it a star :)
+        </p>
+        <a href="https://github.com/IT2810">
+        <img src="../img/facts/footerLogos.png" alt="facebook twitter etc." id="footerImages">
+        <a/>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/docs.js"></script>
+    <script src="../js/navbar.js"></script>
   </body>
 </html>
