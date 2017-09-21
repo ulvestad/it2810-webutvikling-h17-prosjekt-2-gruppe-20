@@ -34,7 +34,7 @@ body {
 
 #first {
   height: 95vh;
-  width: 100vw;
+  width: 100%;
   background-image: url("../img/coffee.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +56,6 @@ body {
 
 /* Second */
 #second {
-  background: LightYellow;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -66,3 +65,30 @@ body {
 .hide { 
   opacity: 0; 
 }
+
+footer{
+   background-image: url("../img/facts/background.jpg");
+   width: 100%;
+   height: 700px;
+   text-align: center;
+}
+#footerP{
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 160px;
+}
+#footerImages{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 80px;
+}
+#coffeeMug{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-height: 300px;
+}
+
