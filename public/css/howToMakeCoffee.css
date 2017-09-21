@@ -1,5 +1,6 @@
-body {
+html, body {
   background-color: #fff;
+  width: 100%;
 }
 footer{
    background-image: url("../img/facts/background.jpg");
@@ -42,7 +43,8 @@ footer{
 }
 
 .content div {
-  padding: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .calculator h1{
