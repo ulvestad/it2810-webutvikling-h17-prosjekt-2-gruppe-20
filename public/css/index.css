@@ -16,8 +16,7 @@ img {
 
 .parent {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
   flex-flow: row wrap;
   height: 100%;
   width: 60%;
@@ -25,10 +24,10 @@ img {
 }
 
 .child {
-  max-width: 200px;
+  width: 30%;
   height: auto;
   margin: auto;
-  padding: 10px;
+  padding: 1%;
 }
 
 /* First */
@@ -68,15 +67,3 @@ img {
   opacity: 0; 
 }
 
-.grow:hover {
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  -webkit-transform: scale(1.1);
-  -moz-transition: -moz-transform .4s ease-in-out;
-  -moz-transform: scale(1.1);
-  -ms-transition: -ms-transform .4s ease-in-out;
-  -ms-transform: scale(1.1);
-  -o-transition: -o-transform .4s ease-in-out;
-  -o-transform: scale(1.1);
-  transition: transform .4s ease-in-out;
-  transform: scale(1.1); 
-}

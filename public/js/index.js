@@ -1,24 +1,24 @@
-$(document).on('load', function() {
-  addMultipleImages();
+let counter = 0;
+let numberOfPosters = 15;
+
+$(document).ready(function() {
+  addSingleImage();
+  addSingleImage();
+  addSingleImage();
 });
 
 $(document).on('scroll', function(){
-  if ($(document).scrollTop() > $('#posters').height() - $('#first').height()/8) {
-    addMultipleImages();
+  if ($(document).scrollTop() > $('#posters').height() && $(document).scrollTop() > 100) {
+    addSingleImage();
+    addSingleImage();
+    addSingleImage();
   }
 });
 
-function addMultipleImages() {
-  let count = ($(document).width()/2) / 200;
-  for (i = 0; i < count - 1; i++) {
-    addSingleImage();
-  }
-}
-
 function addSingleImage() {
-  let number = Math.floor((Math.random() * 15) + 1);
-  let delay = Math.floor((Math.random() * 1000) + 500);
-  let img = $('<img class="child hide grow" src="../img/posters/poster' + number + '.jpg" />');
-  img.delay(delay).animate({"opacity": "1"}, 1000);
+  let id = (counter%numberOfPosters) + 1
+  let img = $('<img class="child hide grow" src="../img/posters/poster' + id + '.jpg" />');
+  img.delay(1000).animate({"opacity": "1"}, 2000);
   $('#posters').append(img);
+  counter++;
 };
