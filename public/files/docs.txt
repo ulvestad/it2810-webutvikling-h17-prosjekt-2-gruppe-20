@@ -1,46 +1,50 @@
 <h1>Documentation</h1>
-<p>On this page, we have documented how we have chosen to solve the tasks given, and how we meet the requirements.</p>
+<p>On this page, we have documented how we have chosen to solve the tasks given, and how facwe meet the requirements.</p>
 
-<h3>Use node.js and express as web server</h3>
-<p> We have made a simple server using express. It serves static html pages based on the url path.</p>
+<h2>NodeJS + ExpressJS</h2>
+<p>We have made a simple server using express. It serves static html pages based on the url path.</p>
 
-<h3>Use port 8082 so that the project is available at http://it2810-20.idi.ntnu.no:8082</h3>
-<p>error on server, waiting on studass to fix</p>
+<h2>Virtual Machine</h2>
+<p>Error on server, waiting on studass to fix</p>
 
-<h3>Use CSS Flexible Box Layout module for the general layout of the page.</h3>
+<h2>CSS Flexible Box</h2>
 <p>We utilized flex box several times in our css as it ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices. Examples of use can be found in the navigation bar (nav.css) and the facts page (facts.css).</p>
 
-<h3>The navigation bar should be developed from the ground up</h3>
+<h2>Make a navigation bar</h2>
 <p>Yes, every aspect of the nav bar is build from the ground up using .html, css and jQuery. The combination of theese allows the navbar to be reponsive and look beatiful, while doing its task; to navigate the user aroud the webpage.</p>
 
-<h3>The page should include some use of the ajax-functionality</h3>
-<p>The text you are reading now is loaded using ajax in `/public/docs.js`.</p>
+<h2>Ajax-functionality</h2>
+<p>The text you are reading now is loaded using ajax in /public/docs.js.</p>
 
-<h3>The jQuery basis library should be used, including jQuery selector</h4>
+<h2>The jQuery</h2>
+<p>The basis library has been used, as well as the jQuery selector which allows for selection and manipulation of HTML element(s). Examples can been seen in fatcs.js, index.js. </p>
 
-<h4>One or more function(s) from the jQuery API</h4>
-<p>Several funcitons from the API has been used, including .ready(), .load() and .scrollTop().Al</p> 
+<p>Several funcitons from the API has been used, including .ready(), .load() and .scrollTop(). All proving very useful. </p>
 
-<h4>Functions as parameters</h4>
-<p>We use (anonymous) functions as parameters in for instance the event handlers in `/public/index.js` e.g. </p>
+<p> We use (anonymous) functions as parameters in for instance the event handlers in /public/index.js e.g. </p>
+
+<p>// Loads 3 images when page is ready <br>
+$(document).ready(function() { <br>
+ multiple(3); <br>
+}); </p
+
 <p>
-$(document).ready(function() {<br/>
- multiple(3);<br/>
-});</br>
-</p>
+Examples of jQuery event handling can be found in `/public/index.js`. $(document).ready(...)
+ fires when the page is loaded, $(document).on('scroll', ...)when the user scrolls etc.
+</p
 
-<h4>Event handling</h4>
-<p>Examples of jQuery event handling can be found in `/public/index.js`. $(document).ready() fires when the page is loaded, $(document).on('scroll') when the user scrolls etc.</p>
+<h2>Responsive design</h2>
+<p> We use media queries in /public/css/nav.css to make the navbar adapt to bigger/smaller screens. If the display has a resolution of less than 767px, we show the “toggle button”, which shows the navigation links when clicked. On bigger screens, the navigation links are displayed directly in the header. We use flexbox with overflow rules on other pages to make the overall layout and its content responsive to the screen size. </p>
 
-<h3>A documentation page showing how the tasks are solved</h3>
-<p>This is the documentation page :) </p>
-
-<h3>Responsive design: the page should adapt to different screen sizes</h3>
-<p>We use media queries in `/public/css/nav.css` to make the navbar adapt to bigger/smaller screens. If the display has a resolution of less than 767, we show the “toggle button”, which shows the navigation links when clicked. On bigger screens, the navigation links are displayed directly in the header. We use flexbox with overflow rules on other pages to make the overall layout and its content responsive to the screen size.</p>
-
-
-<h3>All members should contribute with code, testing, design etc. This should be documented in a seperate document.</h3>
-<p>Document created containing task/hours. Facultys eyes only ^^ </p>
-
-
-
+<h2>Tested on</h2>
+<ul>
+  <li> Chrome </li>
+  <li> Explorer </li>
+  <li> Safari </li>
+  <li> Opera </li>
+  <li> Firefox </li>
+</ul>
+<ul>
+  <li> IPhone 6, 7 </li>
+  <li> Ipad </li>
+</ul>

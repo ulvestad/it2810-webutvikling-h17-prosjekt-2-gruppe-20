@@ -15,10 +15,11 @@ body {
   line-height: 150%;
 }
 
+.content h1 {
+  text-align: center;
+}
 
 .content h1, h2 {
-  text-align: center;
-  padding-bottom: 5%;
   padding-top: 5%;
 }
 
@@ -27,7 +28,11 @@ body {
 }
 
 .content h3 {
-  padding-top: 3%;
+  padding-top: 2%;
+}
+
+.content p {
+  padding-top: 4%;
 }
 
 footer{
@@ -36,11 +41,13 @@ footer{
    height: 700px;
    text-align: center;
 }
+
 #footerP{
   font-weight: bold;
   font-size: 12px;
   margin-top: 160px;
 }
+
 #footerImages{
   display: block;
   margin-left: auto;
@@ -48,6 +55,7 @@ footer{
   margin-top: 50px;
   height: 80px;
 }
+
 #coffeeMug{
   display: block;
   margin-left: auto;
