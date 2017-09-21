@@ -16,8 +16,7 @@ img {
 
 .parent {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
   flex-flow: row wrap;
   height: 100%;
   width: 60%;
@@ -25,42 +24,10 @@ img {
 }
 
 .child {
-  max-width: 200px;
+  width: 30%;
   height: auto;
   margin: auto;
-  padding: 10px;
-}
-
-/* Sections */
-
-#nav {
-  position: fixed;
-  width: 30px;
-  height: 20%;
-  right: 5%;
-  top: 40%;
-}
-
-#nav ul {
-  list-style-type: none;
-}
-
-#nav li {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#nav a {
-  text-decoration: none;
-  color: maroon;
-  font-size: 60px;
-}
-
-#nav a:hover {
-  color: goldenrod;
+  padding: 1%;
 }
 
 /* First */
@@ -82,11 +49,6 @@ img {
   color: #fff;
 }
 
-.title > h2 {
-  font-size: 40px;
-  margin: 0;
-}
-
 .title > h1 {
   font-size: 80px;
   margin: 0;
@@ -99,45 +61,9 @@ img {
   padding-bottom: 5%;
 }
 
-/* Third */
-
-#third {
-  background: white;
-  height: 100vh;
-  width: 100vw;
-}
-
-#third .quote {
-  max-width: 300px;
-}
-
-#third .image {
-  max-width: 400px;
-}
-
 /* Animations */
-
-.show {  
-  -webkit-transition: opacity 2s ease-in-out; /* Chrome, Safari */
-  -moz-transition: opacity 2s ease-in-out; /* Firefox */
-  -ms-transition: opacity 2s ease-in-out; /* IE */
-  -o-transition: opacity 2s ease-in-out; /* Opera */
-  transition: opacity 2s ease-in-out;
-}
 
 .hide { 
   opacity: 0; 
 }
 
-.grow:hover {
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  -webkit-transform: scale(1.1);
-  -moz-transition: -moz-transform .4s ease-in-out;
-  -moz-transform: scale(1.1);
-  -ms-transition: -ms-transform .4s ease-in-out;
-  -ms-transform: scale(1.1);
-  -o-transition: -o-transform .4s ease-in-out;
-  -o-transform: scale(1.1);
-  transition: transform .4s ease-in-out;
-  transform: scale(1.1); 
-}

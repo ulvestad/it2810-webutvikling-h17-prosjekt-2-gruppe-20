@@ -1,37 +1,24 @@
-let posters = 15;
-let done = 1;
+let counter = 0;
+let numberOfPosters = 15;
 
-window.onload = function() {
-  setInterval(function() {
-    changeImage();
-  }, 3000);
-}
+$(document).ready(function() {
+  addSingleImage();
+  addSingleImage();
+  addSingleImage();
+});
 
-window.onscroll = function() {
-  fakeLazyLoad();
-}
-
-function fakeLazyLoad() {
-  for (x = done; x < posters + 1; x++) {
-    imageTransition('poster' + x);
+$(document).on('scroll', function(){
+  if ($(document).scrollTop() > $('#posters').height() && $(document).scrollTop() > 100) {
+    addSingleImage();
+    addSingleImage();
+    addSingleImage();
   }
-}
+});
 
-// Adds the css class 'show' when the height is approriate
-function imageTransition(id) {
-  let height = window.innerHeight;
-  let img1 = document.getElementById(id);
-  let img1value = img1.getBoundingClientRect().top + img1.height/2;
-
-  if (img1value < height) {
-    img1.classList.add('show');
-    img1.classList.remove('hide');
-    done++;
-  }
-}
-
-// Changes coffee image with random
-function changeImage() {
-  let rand = Math.floor((Math.random() * 7) + 1);
-  document.getElementById('coffee').src='../img/coffee/coffee' + rand + '.jpg';
-}
+function addSingleImage() {
+  let id = (counter%numberOfPosters) + 1
+  let img = $('<img class="child hide grow" src="../img/posters/poster' + id + '.jpg" />');
+  img.delay(1000).animate({"opacity": "1"}, 2000);
+  $('#posters').append(img);
+  counter++;
+};
