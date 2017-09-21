@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/nav.css">
+  <link rel="stylesheet" type="text/css" href="../css/facts.css">
+  <title> Coffee - Documentation</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="toggle">
+        <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
+        <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
+      </div>
+      <div class="navbar-menu" id="navbar-menu">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/map">Map</a>
+        <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
+        <a class="navbar-item" href="/facts">Facts</a>
+        <a class="navbar-item" href="/documentation">Documentation</a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h1>Documentation</h1>
+    <p>On this page, we have documented how we have chosen to solve the tasks given, and how we meet the requirements.</p>
+    <h2>Requirements:</h2>
+    <ol class='requirements'>
+      <li>Use node.js and express as web server</li>
+      <li>Use port 8082 so that the project is available at http://it2810-20.idi.ntnu.no:8082</li>
+      <li>Use CSS Flexible Box Layout module for the general layout of the page.</li>
+      <li>The navigation bar should be developed from the ground up</li>
+      <li>The page should include some use of the ajax-functionality</li>
+      <li>The jQuery basis library should be used, including</li>
+      <li>
+        <ul>
+          <li>jQuery selector</li>
+          <li>One or more function(s) from the jQuery API</li>
+          <li>Functions as paremeters</li>
+          <li>Event handeling</li>
+        </ul>
+      </li>
+      <li>A documentation page showing how the tasks are solved</li>
+      <li>Responsive design: the page should adapt to different screen sizes</li>
+      <li>All members should contribute with code, testing, design etc. This should be documented in a seperate document.</li>
+    </ol>
+
+
+
+  </div>
+
+  <footer>
+    <p id="footerP">Copyrigth by Group 20 @NTNU - IT2810.
+      <br></br>
+      Source code can be found @GitHub
+      <br> Give it a star :)
+    </p>
+    <img src="../img/facts/footerLogos.png" alt="facebook twitter etc." id="footerImages">
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/navbar.js"></script>
+</body>
+
+</html>
