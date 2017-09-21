@@ -1,4 +1,5 @@
 let counter = 0;
+let Limit = 0;
 let numberOfPosters = 15;
 
 $(document).ready(function() {
@@ -7,7 +8,10 @@ $(document).ready(function() {
 
 $(document).on('scroll', function(){
   if ($(document).scrollTop() > $('#posters').height() && $(document).scrollTop() > 100) {
-    multiple(3);
+    if(Limit<14){  
+      Limit += 3;
+      multiple(3);
+    }
   }
 });
 
