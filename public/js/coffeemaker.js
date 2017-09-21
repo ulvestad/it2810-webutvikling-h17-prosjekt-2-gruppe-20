@@ -5,7 +5,7 @@ const water_per_cup = 12.5;
 function calculate_coffee(n_cups) {
 
   if (n_cups >= 100) {
-    return { coffe: "", water: "", error: 'To make 100+ cups of coffe, you should probably ask someone else for tips.</br> Please contact <a href="https://contactus.jdecoffee.com/friele-norway/">Friele</a>' }
+    return { coffe: -1, water: -1, error: 'To make 100+ cups of coffe, you should probably ask someone else for tips.</br> Please contact <a href="https://contactus.jdecoffee.com/friele-norway/">Friele</a>' }
   }
 
   let coffee = coffee_per_cup * n_cups;
