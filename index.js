@@ -19,6 +19,10 @@ app.get('/howToMakeCoffee', (req, res) => {
   res.redirect('/pages/howToMakeCoffee.html')
 })
 
+app.get('/facts', (req, res) => {
+  res.redirect('/pages/facts.html')
+})
+
 /* Start server */
 let server = require('http').createServer(app).listen(port)
 console.log('Server started on port', port)
