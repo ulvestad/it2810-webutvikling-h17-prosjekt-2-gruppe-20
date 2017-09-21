@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/nav.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title> Coffee </title>
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
-        <div class="toggle">
-          <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
-          <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
-        </div>
-        <div class="navbar-menu" id="navbar-menu">
-          <a class="navbar-item" href="/">Home</a>
-          <a class="navbar-item" href="/map">Map</a>
-          <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
-          <a class="navbar-item" href="/facts">Facts</a>
-        </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/nav.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title> Coffee </title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="toggle">
+        <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
+        <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
       </div>
-    </header>
-    <div id="first">
-      <div class="title">
-        <h1> Coffee </h1>
+      <div class="navbar-menu" id="navbar-menu">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/map">Map</a>
+        <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
+        <a class="navbar-item" href="/facts">Facts</a>
+        <a class="navbar-item" href="/documentation">Documentation</a>
       </div>
     </div>
-    <div id="second">
-      <div class="parent" id="posters"> </div>
+  </header>
+  <div id="first">
+    <div class="title">
+      <h1> Coffee </h1>
     </div>
+  </div>
+  <div id="second">
+    <div class="parent" id="posters"> </div>
+  </div>
   </div>
   <script src="../js/index.js"></script>
   <script src="../js/navbar.js"></script>
