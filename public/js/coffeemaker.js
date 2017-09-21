@@ -10,7 +10,7 @@ function calculate_coffee(n_cups) {
 
   let coffee = coffee_per_cup * n_cups;
   let water = water_per_cup * n_cups;
-  return { coffee: coffee, water: water, message: "" };
+  return { coffee: coffee, water: water, error: "" };
 };
 
 // Updates html with new values when input changes
