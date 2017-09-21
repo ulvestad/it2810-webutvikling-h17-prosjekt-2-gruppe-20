@@ -7,7 +7,7 @@ body {
   font-family: monospace;
 }
 
-img {
+#second img {
   max-width:100%;
   max-height:100%;
 }
