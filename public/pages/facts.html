@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/facts.css">
+  <title> Coffee </title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="toggle">
+        <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
+        <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
+      </div>
+      <div class="navbar-menu" id="navbar-menu">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/map">Map</a>
+        <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
+        <a class="navbar-item" href="/facts">Facts</a>
+      </div>
+    </div>
+  </header>
+  <div id="brownContainer">
+    <img src="../img/facts/world.png" alt="worldmap" id="imgWorld">
+    <p id="fact1">
+      <span id="span1">305</span>
+      <span>million cups of coffee are made in the US per day.</span>
+    </p>
+    <p id="fact2">
+      <span>Coffee exporting alone is a </span>
+      <span id="span2">$20 billion dollar</span>
+      <span>industry</span>
+    </p>
+  </div>
+  <div id="whiteContainer">
+    <div id="tweet">
+      <h3>Did you know Donald J. Trump loves coffee?</h3>
+      <p>Well, apperantly he does, according to his tweet.</p>
+      <img src="../img/facts/covefe.png" alt="DonaldTrump Covefefe tweet" id="imgTweet">
+    </div>
+    <div id="whiteContainer">
+      <div id="paragraphs">
+        <div id="imgParagraph1">
+          <img src="../img/facts/beans.jpg" alt="coffeebeans" id="imgBeans">
+        </div>
+        <div id="imgParagraph2">
+          <img src="../img/facts/shop.jpg" alt="coffeeshop" id="imgShop">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/navbar.js"></script>
+</body>
+
+</html>

@@ -7,12 +7,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'pages/public')));
 
 // -- Routes
-app.get('/', (req, res) => { 
+app.get('/', (req, res) => {
   res.redirect('/pages/index.html')
 })
 
 app.get('/map', (req, res) => {
   res.redirect('/pages/map.html')
+})
+
+app.get('/howToMakeCoffee', (req, res) => {
+  res.redirect('/pages/howToMakeCoffee.html')
 })
 
 /* Start server */
