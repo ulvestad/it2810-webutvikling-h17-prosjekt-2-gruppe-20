@@ -75,6 +75,7 @@ a:hover {
   .toggle {
     display: none;
   }
+
   .navbar {
     display: flex;
     flex: 1;
@@ -85,12 +86,14 @@ a:hover {
     padding-left: 2em;
     padding-right: 2em;
   }
+
   .navbar-menu {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     min-width: 10em;
   }
+
   .navbar-menu a {
     padding: 0em;
     padding-right: 1em;
@@ -104,16 +107,20 @@ a:hover {
     display: flex;
     color:#fff;
   }
+
   .navbar {
     flex-direction: column;
   }
+
   .navbar-menu {
     display: none;
     flex-direction: column;
   }
-    .navbar-menu.active {
+  
+  .navbar-menu.active {
     display: flex;
-    }
+  }
+
   .navbar-item {
     display: flex;
     flex: 1;
@@ -122,9 +129,11 @@ a:hover {
     background-color: black;
     border-bottom: 1px solid white;
   }
+
   #headerIcon{
     display: none;
   }
+
   #headerIconToogle{
     width: 35px;
     height: 35px;
@@ -133,6 +142,7 @@ a:hover {
     margin-right: auto;
     display: flex;
   }
+
   #coffeeToggle{
     color: #fff;
     font-weight: bold;
@@ -141,6 +151,5 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-
   }
 }
