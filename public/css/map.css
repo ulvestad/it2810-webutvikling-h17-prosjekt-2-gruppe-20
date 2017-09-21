@@ -1,9 +1,18 @@
-body {
-  background: khaki;
+html body{
+  height: 100vh;
+  background: LightYellow;
+}
+
+iframe {
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 80%;
+  height: 80%;
+  border-style: none;
 }
 
 #map {
-  width: 600px;
-  height: 400px;
-  border-style: none;
+  height: 100%;
+  width: 100%;
 }
+

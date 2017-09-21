@@ -1,7 +1,32 @@
 body {
-  background: khaki;
+  background: LightYellow;
 }
 
 #nCups {
   width: 40px;
+}
+
+.content {
+  padding-top: 5%;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 150%;
+}
+
+.content h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.content div {
+  background: white;
+  padding: 2%;
+}
+
+.calculator {
+  text-align: center;
+}
+
+.coffeeTypes {
+
 }
