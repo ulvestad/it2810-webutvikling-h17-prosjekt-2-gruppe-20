@@ -1,35 +1,33 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="../css/map.css">
-  <link rel="stylesheet" type="text/css" href="../css/nav.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class="navbar">
-      <div class="toggle">
-        <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
-        <label id="coffeeToggle">Coffee <img src="../img/coffee-icon.png" alt="icon" id="headerIconToogle"></label>
-        <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/map.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title> Coffee </title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="toggle">
+          <label for="menu-toggle" class="navbar-toggle">&equiv;</label>
+          <label id="coffeeToggle">Coffee <img src="../img/coffee-icon.png" alt="icon" id="headerIconToogle"></label>
+          <input class="hidden" type="checkbox" id="menu-toggle" onclick="toggle_menu()">
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+          <a class="navbar-item" href="/"><img src="../img/coffee-icon.png" alt="icon" id="headerIcon"></a>
+          <a class="navbar-item" href="/">Home</a>
+          <a class="navbar-item" href="/map">Map</a>
+          <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
+          <a class="navbar-item" href="/facts">Facts</a>
+        </div>
       </div>
-      <div class="navbar-menu" id="navbar-menu">
-        <a class="navbar-item" href="/"><img src="../img/coffee-icon.png" alt="icon" id="headerIcon"></a>
-        <a class="navbar-item" href="/">Home</a>
-        <a class="navbar-item" href="/map">Map</a>
-        <a class="navbar-item" href="/howToMakeCoffee">How to make coffe</a>
-        <a class="navbar-item" href="/facts">Facts</a>
-      </div>
+    </header>
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBNvK43gDf8Fod2DM2qy0idlJZpKDJ5cDY&q=Kaffe,Trondheim+Norway"> </iframe>
     </div>
-  </header>
-  <div id="map">
-    <iframe src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBNvK43gDf8Fod2DM2qy0idlJZpKDJ5cDY&q=Kaffe,Trondheim+Norway"> </iframe>
-  </div>
-  <script src="../js/navbar.js"></script>
-</body>
-
+    <script src="../js/navbar.js"></script>
+  </body>
 </html>
