@@ -175,7 +175,7 @@ footer{
   width: auto;
 }
 
-#span3{
+.span3{
   color: #652000;
   font-weight: bold;
 }
@@ -188,7 +188,7 @@ footer{
   padding: 10px 25px 25px 25px;
 }
 
-#span4{
+.span4{
   margin-left: 250px;
   font-size: 30px;
   font-weight: bold;
@@ -203,7 +203,7 @@ footer{
   margin-top: -140px;
 }
 
-#factWheel{
+.factWheel{
   width: 80%;
   display: block;
   margin-left: auto;
@@ -225,7 +225,7 @@ footer{
   text-align: center;
 }
 
-#marks{
+.marks{
   font-size: 30px;
   font-weight: bold;
   color: #652000;
